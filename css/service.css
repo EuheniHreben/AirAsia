@@ -1,0 +1,47 @@
+.service {
+  background-color: #fff;
+  color: #000;
+  padding-top: 50px;
+}
+
+.service__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 70px;
+}
+
+.service__item {
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.service__item:hover {
+  background-color: rgba(215, 213, 213, 0.509);
+  box-shadow: 2px 10px 25px rgb(62 58 58 / 60%);
+}
+
+.service__img {
+  margin: 0;
+  width: 460px;
+  height: 330px;
+}
+
+.service__desc {
+  display: inline-block;
+  width: 600px;
+  vertical-align: top;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.service__title {
+  margin-bottom: 30px;
+}
+
+.service__desc-text {
+  line-height: 1.66;
+  margin-bottom: 30px;
+}

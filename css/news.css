@@ -1,0 +1,45 @@
+
+.news {
+  margin-bottom: 144px;
+}
+
+.news__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+
+.news__item {
+  display: flex;
+  width: 556px;
+  height: 392px;
+  border-radius: 5px;
+  margin-bottom: 54px;
+}
+
+.news__item:last-child {
+  margin-right: 0;
+}
+
+.news__img {
+  display: block;
+  position: absolute;
+  width: auto;
+}
+
+.news__desc {
+  position: relative;
+  width: 550px;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px 30px;
+}
+
+.news__date {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.news__text {
+  font-size: 14px;
+}

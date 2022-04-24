@@ -1,0 +1,22 @@
+.contact {
+  font-style: normal;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contact__phone {
+  font-size: 26px;
+  transition: 0.3s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.contact__phone:hover {
+  color: #DA0100;
+  text-shadow: 0 0 10px #b40b0b;
+}
+
+.contact__free {
+  font-size: 11px;
+}

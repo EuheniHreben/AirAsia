@@ -1,0 +1,62 @@
+.index {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/index.png) center center / cover no-repeat;
+  align-items: center;
+  justify-content: center;
+}
+
+.index__welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index__welcome--start {
+  animation-fill-mode: forwards;
+  opacity: 1;
+  animation: zoom 2s;
+}
+
+@keyframes zoom {
+  0% {
+    opacity: 0.15;
+    transform: scale(.5);
+  }
+
+  20% {
+    opacity: 0.25;
+    transform: scale(1.5);
+  }
+  
+  40% {
+    opacity: 0.40;
+    transform: scale(.8);
+  }
+  
+  60% {
+    opacity: 0.6;
+    transform: scale(1.1);
+  }
+
+  80% {
+    opacity: 0.85;
+    transform: scale(.95);
+    
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.index__subtitle {
+  font-size: 18px;
+  margin-bottom: 36px;
+  padding-top: 5px;
+}

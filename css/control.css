@@ -1,0 +1,12 @@
+.control__input {
+  appearance: none;
+}
+
+.control__input:checked ~ .control__tag {
+  background-color: #B9EAE4;
+}
+
+.control__tag {
+  cursor: pointer;
+  font-size: 13px;
+}

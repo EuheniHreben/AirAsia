@@ -1,0 +1,92 @@
+
+.tours {
+  margin-bottom: 120px;
+}
+
+.tours__title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tours__title--flame:after {
+  content: "";
+  width: 22px;
+  height: 28px;
+  background-image: url(../img/flame.png);
+  display: block;
+}
+
+.tours__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.tours__item {
+  display: flex;
+  min-height: 450px;
+  max-width: 360px;
+  flex-direction: column;
+  transition: 0.5s;
+}
+
+.tours__item:hover {
+  box-shadow: 2px 3px 35px rgba(196, 193, 193, 0.893);
+}
+
+.tours__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.tours__img {
+  max-width: 100%;
+  margin-bottom: -6px;
+}
+
+.tours__desc {
+  padding: 32px 22px;
+  background-color: #ffffff;
+  color: black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: auto;
+  height: 100%;
+}
+
+.tours__time-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.tours__time-item {
+  margin-right: 20px;
+}
+
+.icon {
+  display: flex;
+  margin-left: 5px;
+  margin-right: 24px;
+  gap: 10px;
+}
+
+.icon_type_cal:before {
+  content: "";
+  width: 26px;
+  height: 26px;
+  background-image: url(../img/calendar.png);
+}
+
+.icon_type_meal:before {
+  content: "";
+  width: 36px;
+  height: 26px;
+  background-image: url(../img/meal.png);
+}
+
+.tours__desc-text {
+  font-size: 14px;
+  margin-bottom: 26px;
+  line-height:1.48 ;
+}

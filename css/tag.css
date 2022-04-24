@@ -1,0 +1,12 @@
+.tag {
+  background-color: #E7E7E7;
+  border-radius: 35px;
+  padding: 10px 18px;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.tag--active {
+  background-color: #B9EAE4;
+}
