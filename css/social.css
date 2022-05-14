@@ -1,8 +1,5 @@
-.social {
-  flex: 1;
-}
-
 .social__list {
+  padding-left: 30px;
   top: 44px;
   right: 200px;
   margin-right: 20px;
@@ -13,6 +10,8 @@
   vertical-align: middle;
   margin-right: 10px;
   transition: 0.5s;
+  width: 36px;
+  height: 36px;
 }
 
 .social__link {
@@ -22,7 +21,7 @@
 }
 
 .social__item--tele {
-  background-image: url(../img/telegram.png);
+  background-image: url(../img/t.svg);
 }
 
 .social__item--tele:hover {
@@ -30,7 +29,7 @@
 }
 
 .social__item--vk {
-  background-image: url(../img/vk.png);
+  background-image: url(../img/vk.svg);
 }
 
 .social__item--vk:hover {
@@ -38,7 +37,7 @@
 }
 
 .social__item--face {
-  background-image: url(../img/f.png);
+  background-image: url(../img/f.svg);
 }
 
 .social__item--face:hover {
@@ -46,7 +45,7 @@
 }
 
 .social__item--inst {
-  background-image: url(../img/in.png);
+  background-image: url(../img/in.svg);
 }
 
 .social__item--inst:hover {
