@@ -20,17 +20,21 @@
 .tours__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
 }
 
 .tours__item {
   display: flex;
   min-height: 450px;
-  max-width: 360px;
+  max-width: 330px;
   flex-direction: column;
   transition: 0.5s;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
+.tours__item:last-child {
+  margin-right: 0px;
+}
 .tours__item:hover {
   box-shadow: 2px 3px 35px rgba(196, 193, 193, 0.893);
 }
@@ -67,7 +71,7 @@
 .icon {
   display: flex;
   margin-left: 5px;
-  margin-right: 24px;
+  margin-right: 14px;
   gap: 10px;
 }
 

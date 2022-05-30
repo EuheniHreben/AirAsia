@@ -2,13 +2,13 @@
   position: relative;
   display: inline-flex;
   justify-content: flex-end;
+  cursor: pointer;
 }
 
 .dropdown__link {
   font-size: 13px;
   color: #98A4A8;
   text-decoration: underline;
-  cursor: pointer;
   transition: 0.3s;
   margin-bottom: 10px;
 }
@@ -27,7 +27,7 @@
   background-color: #EDEDED;
   border: 1px solid transparent;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 9px;
   top: 100%;
   text-align: left;
   right: -9999px;

@@ -6,15 +6,16 @@
 .news__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 26px;
 }
 
 .news__item {
+  margin-right: 10px;
   display: flex;
-  width: 556px;
-  height: 392px;
+  max-width: 510px;
+  max-height: 392px;
   border-radius: 5px;
   margin-bottom: 54px;
+  position: relative;
 }
 
 .news__item:last-child {
@@ -23,15 +24,16 @@
 
 .news__img {
   display: block;
-  position: absolute;
-  width: auto;
+  width: 100%;
 }
 
 .news__desc {
-  position: relative;
-  width: 550px;
-  display: flex;
-  align-items: flex-end;
+  position: absolute;
+  max-width: 500px;
+  display: block;
+  bottom: 0;
+  left: 0;
+  min-height: 120px;
   padding: 30px 30px;
 }
 

@@ -19,6 +19,7 @@
   align-items: flex-start;
   margin-bottom: 30px;
   transition: 0.5s;
+  margin: 12px;
 }
 
 .review__item:hover {

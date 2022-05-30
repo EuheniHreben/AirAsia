@@ -19,8 +19,8 @@
 }
 
 .service__item:hover {
-  background-color: rgba(215, 213, 213, 0.509);
-  box-shadow: 2px 10px 25px rgb(62 58 58 / 60%);
+  background-color: rgba(215, 213, 213, 0.1);
+  box-shadow: 2px 10px 25px rgb(62 58 58 / 50%);
 }
 
 .service__img {

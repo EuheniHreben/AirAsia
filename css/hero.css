@@ -11,7 +11,7 @@
 
 .top {
   background: url(../img/headline\ 1.png) center center no-repeat;
-  height: 432px;
+  max-height: 432px;
   background-size: cover;
 }
 
