@@ -5,6 +5,7 @@
   text-align: center;
   display: inline-block;
   font-size: 13px;
+  cursor: pointer;
 }
 
 .tag--active {
