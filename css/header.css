@@ -1,8 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  /* vertical-align: middle; */
-  /* align-items: center; */
+  align-items: center;
   padding-top: 28px;
   margin-bottom: 120px;
 }

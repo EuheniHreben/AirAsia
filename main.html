@@ -109,11 +109,12 @@
     <section class="news">
       <div class="container">
         <h2>Новости и акции</h2>
-
         <ul class="news__list">
           <li class="news__item">
             <a href="service.html" class="news__link">
-              <img src="img/plain.png" alt="Дешевые путевки на Новый Год" class="news__img">
+              <div class="news__img-box">
+                <img src="img/plain.png" alt="Дешевые путевки на Новый Год" class="news__img">
+              </div>
               <div class="news__desc">
                 <div class="news__date">Декабрь 2019</div>
                 <h4>Дешевые путевки на Новый Год!</h4>
@@ -123,7 +124,9 @@
           </li>
           <li class="news__item">
             <a href="service.html" class="news__link">
-              <img src="img/Surfer.png" alt="Акция для серфингистов!" class="news__img">
+              <div class="news__img-box">
+                <img src="img/Surfer.png" alt="Акция для серфингистов!" class="news__img">
+              </div>
               <div class="news__desc">
                 <div class="news__date">Декабрь 2019</div>
                 <h4>Акция для серфингистов!</h4>
@@ -133,7 +136,6 @@
             </a>
           </li>
         </ul>
-
         <div class="page">
           <div class="page__current">Страница 1 из 7</div>
           <ul class="page__list">
@@ -146,7 +148,6 @@
             <li class="page__item"><a href="#" class="page__link">7</a></li>
           </ul>
         </div>
-
       </div>
     </section>
 
@@ -177,7 +178,6 @@
           <a href="main.html" class="logo">
             <img src="img/logo.png" alt="" class="logo__img">
           </a>
-
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item"><a href="main.html" class="menu__link">Главная</a></li>
@@ -185,21 +185,20 @@
               <li class="menu__item"><a href="review.html" class="menu__link">Отзывы</a></li>
             </ul>
           </nav>
-
-          <ul class="social__list">
-            <li class="social__item social__item--tele"><a href="https://telegram.org" class="social__link"></a></li>
-            <li class="social__item social__item--vk"><a href="https://vk.com" class="social__link"></a></li>
-            <li class="social__item social__item--face"><a href="https://facebook.com" class="social__link"></a></li>
-            <li class="social__item social__item--inst"><a href="https://instagram.com" class="social__link"></a></li>
-          </ul>
-
+          <div class="social">
+            <ul class="social__list">
+              <li class="social__item social__item--tele"><a href="https://telegram.org" class="social__link"></a></li>
+              <li class="social__item social__item--vk"><a href="https://vk.com" class="social__link"></a></li>
+              <li class="social__item social__item--face"><a href="https://facebook.com" class="social__link"></a></li>
+              <li class="social__item social__item--inst"><a href="https://instagram.com" class="social__link"></a></li>
+            </ul>
+          </div>
           <address class="contact">
             <a href="tel:+78007003030" class="contact__phone">
               <div class="contact__free">Бесплатный звонок по России</div>
               <div class="contact__number">8 800 700 30 30</div>
             </a>
           </address>
-
         </div>
       </div>
     </footer>
